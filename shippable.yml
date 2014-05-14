@@ -2,5 +2,5 @@ language: node_js
 node_js: 0.10
 install: true
 before_script:
-  - psql -d template1 -c "CREATE DATABASE foo-bar;"
+  - psql -d template1 -c "CREATE DATABASE \"foo-bar\";"
 script: true
